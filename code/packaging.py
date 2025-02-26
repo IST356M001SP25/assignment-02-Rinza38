@@ -77,3 +77,4 @@ if __name__ == '__main__':
     package_total = calc_total_units(package)
     unit = get_unit(package)
     print(f"{package_total} {unit} total")
+    
