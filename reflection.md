@@ -24,4 +24,4 @@ Examples:
 `--- Reflection Below This Line ---`
 
 
-Testing 1, 2 ,3, 4
+This assignment was a good reminder of what we use for Python coding when we want to create a basic UI for users to use. I need to practice more on loops!
