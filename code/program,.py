@@ -28,15 +28,18 @@ Example:
 # TODO: Write code
 import json
 from packaging import parse_packaging, calc_total_units, get_unit
+
 packages = []
-with open('data/packaging.txt') as f:
-    for line in f.readlines():
+with open('data/packaging.txt', 'r') as file:
+    for line in file:
         line = line.strip()
+        if not line:
+            continue
         package = parse_packaging(line)
         total_units = calc_total_units(package)
         unit = get_unit(package)
         print(f"{line} => total units: {total_units} {unit}")
         packages.append(package)
-        with open('data/packaging.json', 'w') as f:
-            json.dump(packages, f, indent=4)
-            
+
+with open('data/packaging.json', 'w') as json_file:
+    json.dump(packages, json_file, indent=4)

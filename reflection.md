@@ -23,5 +23,4 @@ Examples:
 
 `--- Reflection Below This Line ---`
 
-
-This assignment was a good reminder of what we use for Python coding when we want to create a basic UI for users to use. I need to practice more on loops!
+This assignment helped me learn how to work with modules, lists, and dictionaries in Python. At first, I found it a bit tricky to parse the packaging data correctly, especially splitting the strings and handling the different parts of the input. However, by using the debugger and testing each step, I was able to figure it out. I also learned how to calculate the total units by multiplying the quantities from each level of packaging, which made sense once I saw how the numbers worked together. Writing the data to a JSON file was new to me, but it was straightforward after reading the documentation. The most challenging part was making sure the output matched exactly what was expected, but the tests helped me catch my mistakes. Overall, this assignment improved my understanding of parsing data and working with different data structures in Python. I feel more confident now in breaking down problems and using debugging tools to fix errors.
